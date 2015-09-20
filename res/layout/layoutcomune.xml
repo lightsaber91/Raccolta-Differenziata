@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cloud"
+    android:gravity="fill" >
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/utext1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="108dp"
+        android:text="@string/usless_string"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/oggitxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/utext1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:text="@string/spaces"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <ImageButton
+        android:id="@+id/img2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/oggitxt"
+        android:layout_toRightOf="@+id/oggitxt"
+        android:background="@drawable/elenco"
+        android:contentDescription="@string/elenco_img"
+        android:src="@drawable/elenco" />
+
+    <ImageButton
+        android:id="@+id/img3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/utext1"
+        android:layout_toLeftOf="@+id/oggitxt"
+        android:background="@drawable/cerca"
+        android:contentDescription="@string/cerca_img"
+        android:src="@drawable/cerca" />
+
+    <ImageButton
+        android:id="@+id/img4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/utext1"
+        android:layout_toRightOf="@+id/oggitxt"
+        android:background="@drawable/back"
+        android:contentDescription="@string/back_img"
+        android:src="@drawable/back" />
+
+    <ImageButton
+        android:id="@+id/img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/oggitxt"
+        android:layout_toLeftOf="@+id/oggitxt"
+        android:background="@drawable/calendario"
+        android:contentDescription="@string/calendario_img"
+        android:src="@drawable/calendario" />
+
+</RelativeLayout>

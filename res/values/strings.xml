@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Raccolta Differenziata</string>
+    <string name="action_settings">Menù</string>
+    <string name="strConferma">Conferma</string>
+    <string name="strComune">Inserisci Comune</string>
+    <string name="strCalendario">Calendario</string>
+    <string name="strprodotto">Inserisci Barcode</string>
+    <string name="strinfo">Inserisci il nome del prodotto</string>
+    <string name="str1">Inserisci manualmente il BarCode:</string>
+    <string name="str2"> oppure usa il \nBarCode Scanner</string>
+    <string name="act2">Menù Principale</string>
+    <string name="act3">Acquisizione da BarCode</string>
+    <string name="strcerca">Cerca</string>
+    <string name="riciclo_img">Immagine Raccolta</string>
+    <string name="usless_string">"                           "</string>
+    <string name="cerca_img">Immagine Cerca</string>
+    <string name="elenco_img">Immagine Elenco</string>
+    <string name="back_img">Immagine Back</string>
+    <string name="calendario_img">Immagine Calendario</string>
+    <string name="spaces">"     "</string>
+    <string name="barcode_img">Immagine Barcode</string>
+    <string name="btguida">Guida all\'uso</string>
+    <string name="strhome">Home</string>
+    <string name="strexit">Esci</string>
+    <string name="Cerca">&#8230;</string>
+    <string name="act4">Ricerca Comuni</string>
+    <string name="prodnotfound">Prodotto non presente</string>
+    <string name="initdbstart">Attendi la prima Inizializzazione</string>
+    <string name="initdbend">Inizializzazione Completata</string>
+    <string name="title_activity_raccolta_per_giorno">Cosa Butto Oggi</string>
+    <string name="title_activity_lista_prodotti">Ricerca Prodotti</string>
+    <string name="title_activity_scheda_prodotto">Scheda Prodotto</string>
+    <string name="prodnotfound1">Nessuna parte di questo prodotto può essere buttata nel tuo comune. Tutto nell\' indifferenziato.</string>
+    <string name="scheda1">E\' composto da\:</string>
+    <string name="scheda2">che si butta nel secchio</string>
+    <string name="ricordacitta">Ricorda la mia città</string>
+    <string name="title_activity_info">Info</string>
+    <string name="strtesto">Benvenuto utente! \nGrazie alla nostra applicazione da oggi fare la raccolta differenziata sarà più semplice! Usare l\'app "RaccoltaDifferenziata" è molto intuitivo, basta infatti selezionare il comune desiderato per poi poter usifruire delle funzionalità messe a disposizione per il comune prescelto.\nLe funzionalità a dispozioni sono:\n- CALENDARIO (mostra quale tipo di prodotto viene raccolto nel giorno odierno)\n- PRODOTTI (permette di ottenere informazioni sullo smaltiernomento del prodotto dato in input tramite barcode)\n- LISTA PRODOTTI (consente di ricerca il prodotto mediante il suo nome)</string>
+
+</resources>

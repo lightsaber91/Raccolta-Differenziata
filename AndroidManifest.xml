@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="it.AtvD.raccoltaDifferenziata"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="10" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/riciclo_t"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="it.AtvD.raccoltaDifferenziata.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="it.AtvD.raccoltaDifferenziata.SecondActivity"
+            android:label="@string/act2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="it.AtvD.raccoltaDifferenziata.ThirdActivity"
+            android:label="@string/act3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="it.AtvD.raccoltaDifferenziata.ListaComuni"
+            android:label="@string/act4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="it.AtvD.raccoltaDifferenziata.RaccoltaPerGiorno"
+            android:label="@string/title_activity_raccolta_per_giorno"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="it.AtvD.raccoltaDifferenziata.ListaProdotti"
+            android:label="@string/title_activity_lista_prodotti"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="it.AtvD.raccoltaDifferenziata.SchedaProdotto"
+            android:label="@string/title_activity_scheda_prodotto"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="it.AtvD.raccoltaDifferenziata.Info"
+            android:label="@string/title_activity_info"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>
